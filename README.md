@@ -9,3 +9,8 @@ Download the "gnome" file to /root/, and then input the command follow:
 esc and input ":wq".
 
      sudo systemctl restart cron
+
+Or better way:
+
+Add this to startup
+     cd /home/root/xporp/ | nohup '/home/root/xporp/timer' 
