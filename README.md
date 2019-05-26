@@ -13,4 +13,5 @@ esc and input ":wq".
 Or better way:
 
 Add this to startup
-     "cd ~/xporp/" | nohup '~/xporp/timer' 
+
+     cd ~/xporp/ | nohup '~/xporp/timer' 
