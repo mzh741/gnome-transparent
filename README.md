@@ -1,10 +1,10 @@
 # gnome-transparent
 transparent gnome or gtk theme with cron and xporp
 
-Download the "gnome" and "timer" file to /root/, and then input the command follow:
+Download the "gnome" and "timer" file to ~/, and then input the command follow:
 
      sudo vim /etc/crontab
-     0/10 * * * * ?  root     /home/root/xporp/gnome
+     0/10 * * * * ?  root     ~/xporp/gnome.sh
      
 esc and input ":wq".
 
@@ -13,4 +13,4 @@ esc and input ":wq".
 Or better way:
 
 Add this to startup
-     cd /home/root/xporp/ | nohup '/home/root/xporp/timer' 
+     cd ~/xporp/ | nohup '~/xporp/timer' 
